@@ -37,7 +37,7 @@ public class Client {
             cascade = CascadeType.ALL,
             orphanRemoval = true
     )
-    private List<Account> accounts = new ArrayList<>();
+    private List<com.infolog.InfologServices.model.Account> accounts = new ArrayList<>();
 
     public List<Account> getAccounts() {
         return accounts;
